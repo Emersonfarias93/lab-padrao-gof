@@ -34,10 +34,20 @@ Exemplo de Resposta:
 
 ```json
 {
-"id": 1,
-"nome": "João Silva",
-"email": "joao.silva@example.com",
-"telefone": "(11) 99999-9999"
+  "id": 0,
+  "nome": "string",
+  "endereco": {
+    "cep": "string",
+    "logradouro": "string",
+    "complemento": "string",
+    "bairro": "string",
+    "localidade": "string",
+    "uf": "string",
+    "ibge": "string",
+    "gia": "string",
+    "ddd": "string",
+    "siafi": "string"
+  }
 }
 ```
 ### PUT /clientes/{id}
@@ -75,9 +85,20 @@ Corpo:
 
 ```json
 {
-"nome": "João Silva",
-"email": "joao.silva@example.com",
-"telefone": "(11) 98888-8888"
+  "id": 0,
+  "nome": "string",
+  "endereco": {
+    "cep": "string",
+    "logradouro": "string",
+    "complemento": "string",
+    "bairro": "string",
+    "localidade": "string",
+    "uf": "string",
+    "ibge": "string",
+    "gia": "string",
+    "ddd": "string",
+    "siafi": "string"
+  }
 }
 ```
 
@@ -85,11 +106,21 @@ Exemplo de Resposta:
 
 ```json
 {
-"id": 1,
-"nome": "João Silva",
-"email": "joao.silva@example.com",
-"telefone": "(11) 98888-8888"
-} 
+  "id": 0,
+  "nome": "string",
+  "endereco": {
+    "cep": "string",
+    "logradouro": "string",
+    "complemento": "string",
+    "bairro": "string",
+    "localidade": "string",
+    "uf": "string",
+    "ibge": "string",
+    "gia": "string",
+    "ddd": "string",
+    "siafi": "string"
+  }
+}
 ```
 
 ### DELETE /clientes/{id}
@@ -143,20 +174,22 @@ GET /clientes
 Exemplo de Resposta:
 
 ```json
-[
-    {
-    "id": 1,
-    "nome": "João Silva",
-    "email": "joao.silva@example.com",
-    "telefone": "(11) 99999-9999"
-    },
-    {
-    "id": 2,
-    "nome": "Maria Souza",
-    "email": "maria.souza@example.com",
-    "telefone": "(21) 98888-8888"
-    }
-]
+{
+  "id": 0,
+  "nome": "string",
+  "endereco": {
+    "cep": "string",
+    "logradouro": "string",
+    "complemento": "string",
+    "bairro": "string",
+    "localidade": "string",
+    "uf": "string",
+    "ibge": "string",
+    "gia": "string",
+    "ddd": "string",
+    "siafi": "string"
+  }
+}
 ```
 
 ### POST /clientes
@@ -188,9 +221,20 @@ Corpo:
 
 ```json
 {
-"nome": "Ana Lima",
-"email": "ana.lima@example.com",
-"telefone": "(31) 97777-7777"
+  "id": 0,
+  "nome": "string",
+  "endereco": {
+    "cep": "string",
+    "logradouro": "string",
+    "complemento": "string",
+    "bairro": "string",
+    "localidade": "string",
+    "uf": "string",
+    "ibge": "string",
+    "gia": "string",
+    "ddd": "string",
+    "siafi": "string"
+  }
 }
 ```
 
@@ -198,10 +242,20 @@ Exemplo de Resposta:
 
 ```json
 {
-"id": 3,
-"nome": "Ana Lima",
-"email": "ana.lima@example.com",
-"telefone": "(31) 97777-7777"
+  "id": 0,
+  "nome": "string",
+  "endereco": {
+    "cep": "string",
+    "logradouro": "string",
+    "complemento": "string",
+    "bairro": "string",
+    "localidade": "string",
+    "uf": "string",
+    "ibge": "string",
+    "gia": "string",
+    "ddd": "string",
+    "siafi": "string"
+  }
 }
 ```
 Criado por: Emerson de Farias Santos
