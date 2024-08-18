@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * Projeto Spring Boot para cadastro de usuário e validação de cep via Api externa.
- *
  * Os seguintes módulos foram selecionados:
  * - Spring Data JPA
  * - Spring Web
