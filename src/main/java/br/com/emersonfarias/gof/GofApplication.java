@@ -10,6 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * - Spring Web
  * - H2 Database
  * - OpenFeign
+ * - Swagger 3
  *
  * @author emersonsantos
  */
